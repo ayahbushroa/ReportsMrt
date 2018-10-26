@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" application="StiReport" type="Flex">
+  <Dictionary isKey="true" type="Dictionary" Ref="1">
+    <BusinessObjects count="0" isList="true"/>
+    <Databases count="0" isList="true"/>
+    <DataSources count="13" isList="true">
+      <CriticalityDetails isKey="true" type="DataTableSource" Ref="2">
+        <Alias>CriticalityDetails</Alias>
+        <Columns count="33" isList="true">
+          <value>AssessmentId,System.Decimal</value>
+          <value>AssessmentName,System.String</value>
+          <value>AssessmentDescription,System.String</value>
+          <value>Package,System.String</value>
+          <value>PackageName,System.String</value>
+          <value>Equipment,System.String</value>
+          <value>Function,System.String</value>
+          <value>FunctionalFailure,System.String</value>
+          <value>FailureMode,System.String</value>
+          <value>FailureCause,System.String</value>
+          <value>FailureEffect,System.String</value>
+          <value>Risk,System.String</value>
+          <value>Status,System.String</value>
+          <value>Seq,System.Decimal</value>
+          <value>CategoryName,System.String</value>
+          <value>Color,System.String</value>
+          <value>Answer,System.String</value>
+          <value>AxisType,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_Current,System.Object</value>
+          <value>ApprovedTasks,System.Object</value>
+          <value>ApprovedTasksList,System.Object</value>
+          <value>CriticalityDetails,System.Object</value>
+          <value>TaskSelectionList,System.Object</value>
+          <value>SanityCheckList,System.Object</value>
+          <value>ScreeningGraph,System.Object</value>
+          <value>LtaTsrmDetails,System.Object</value>
+          <value>ExeSummaryDetails,System.Object</value>
+          <value>FunctionDetails,System.Object</value>
+          <value>CofDetails,System.Object</value>
+          <value>PofDetails,System.Object</value>
+          <value>LtaDetails,System.Object</value>
+          <value>TsrmDetails,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails</NameInSource>
+      </CriticalityDetails>
+      <CriticalityDetails_ApprovedTasks isKey="true" type="DataTableSource" Ref="3">
+        <Alias>CriticalityDetails_ApprovedTasks</Alias>
+        <Columns count="26" isList="true">
+          <value>Id,System.Decimal</value>
+          <value>ActivityId,System.Decimal</value>
+          <value>ActivityDescription,System.String</value>
+          <value>ActivityAlterDescription,System.String</value>
+          <value>Asset,System.String</value>
+          <value>AssetType,System.String</value>
+          <value>Function,System.String</value>
+          <value>FunctionalFailure,System.String</value>
+          <value>FailureMode,System.String</value>
+          <value>FailureCause,System.String</value>
+          <value>FailureEffect,System.String</value>
+          <value>Risk,System.String</value>
+          <value>Status,System.String</value>
+          <value>FinalTask,System.String</value>
+          <value>FinalTaskType,System.String</value>
+          <value>FinalFreq,System.String</value>
+          <value>FreqUom,System.String</value>
+          <value>ApprovalComments,System.String</value>
+          <value>PmApproval,System.String</value>
+          <value>ApprovedOn,System.DateTime</value>
+          <value>ApprovedBy,System.String</value>
+          <value>AssessmentId,System.Decimal</value>
+          <value>TaskId,System.Decimal</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_ApprovedTasks</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_ApprovedTasks</NameInSource>
+      </CriticalityDetails_ApprovedTasks>
+      <CriticalityDetails_ApprovedTasksList isKey="true" type="DataTableSource" Ref="4">
+        <Alias>CriticalityDetails_ApprovedTasksList</Alias>
+        <Columns count="29" isList="true">
+          <value>AssessmentId,System.Decimal</value>
+          <value>AssessmentName,System.String</value>
+          <value>AssessmentDescription,System.String</value>
+          <value>Package,System.String</value>
+          <value>PackageName,System.String</value>
+          <value>Equipment,System.String</value>
+          <value>Function,System.String</value>
+          <value>FunctionalFailure,System.String</value>
+          <value>FailureMode,System.String</value>
+          <value>FailureCause,System.String</value>
+          <value>FailureEffect,System.String</value>
+          <value>Risk,System.String</value>
+          <value>Status,System.String</value>
+          <value>FinalTask,System.String</value>
+          <value>FinalTaskType,System.String</value>
+          <value>FinalFreq,System.String</value>
+          <value>FreqUom,System.String</value>
+          <value>ApprovalComments,System.String</value>
+          <value>PmApproval,System.String</value>
+          <value>ApprovedOn,System.DateTime</value>
+          <value>ApprovedBy,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+          <value>Level1Name,System.String</value>
+          <value>Level1Desc,System.String</value>
+          <value>Level1Type,System.String</value>
+          <value>Level2Name,System.String</value>
+          <value>Level2Type,System.String</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_ApprovedTasksList</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_ApprovedTasksList</NameInSource>
+      </CriticalityDetails_ApprovedTasksList>
+      <CriticalityDetails_CriticalityDetails isKey="true" type="DataTableSource" Ref="5">
+        <Alias>CriticalityDetails_CriticalityDetails</Alias>
+        <Columns count="26" isList="true">
+          <value>AssessmentId,System.Decimal</value>
+          <value>AssessmentName,System.String</value>
+          <value>AssessmentDescription,System.String</value>
+          <value>Package,System.String</value>
+          <value>PackageName,System.String</value>
+          <value>Equipment,System.String</value>
+          <value>Function,System.String</value>
+          <value>FunctionalFailure,System.String</value>
+          <value>FailureMode,System.String</value>
+          <value>FailureCause,System.String</value>
+          <value>FailureEffect,System.String</value>
+          <value>Risk,System.String</value>
+          <value>Status,System.String</value>
+          <value>Seq,System.Decimal</value>
+          <value>CategoryName,System.String</value>
+          <value>Color,System.String</value>
+          <value>Answer,System.String</value>
+          <value>AxisType,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+          <value>Level1Name,System.String</value>
+          <value>Level1Desc,System.String</value>
+          <value>Level1Type,System.String</value>
+          <value>Level2Name,System.String</value>
+          <value>Level2Type,System.String</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_CriticalityDetails</NameInSource>
+      </CriticalityDetails_CriticalityDetails>
+      <CriticalityDetails_TaskSelectionList isKey="true" type="DataTableSource" Ref="6">
+        <Alias>CriticalityDetails_TaskSelectionList</Alias>
+        <Columns count="35" isList="true">
+          <value>Id,System.Decimal</value>
+          <value>ActivityId,System.Decimal</value>
+          <value>ActivityDescription,System.String</value>
+          <value>ActivityAlterDescription,System.String</value>
+          <value>Asset,System.String</value>
+          <value>AssetType,System.String</value>
+          <value>Function,System.String</value>
+          <value>FunctionalFailure,System.String</value>
+          <value>FailureMode,System.String</value>
+          <value>FailureCause,System.String</value>
+          <value>FailureEffect,System.String</value>
+          <value>Risk,System.String</value>
+          <value>Status,System.String</value>
+          <value>Task,System.String</value>
+          <value>TaskDetail,System.String</value>
+          <value>TaskType,System.String</value>
+          <value>TaskFreq,System.String</value>
+          <value>FreqUom,System.String</value>
+          <value>AnalyzeSeparately,System.String</value>
+          <value>ReasonForChange,System.String</value>
+          <value>TaskStatus,System.String</value>
+          <value>WorkCenter,System.String</value>
+          <value>UpdatedOn,System.DateTime</value>
+          <value>UpdatedBy,System.String</value>
+          <value>AssessmentId,System.Decimal</value>
+          <value>FMId,System.Decimal</value>
+          <value>PmApproval,System.String</value>
+          <value>NoTaskReq,System.String</value>
+          <value>TaskKey,System.String</value>
+          <value>TaskTypeCode,System.String</value>
+          <value>FreqUomKey,System.String</value>
+          <value>WorkCenterCode,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_TaskSelectionList</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_TaskSelectionList</NameInSource>
+      </CriticalityDetails_TaskSelectionList>
+      <CriticalityDetails_SanityCheckList isKey="true" type="DataTableSource" Ref="7">
+        <Alias>CriticalityDetails_SanityCheckList</Alias>
+        <Columns count="44" isList="true">
+          <value>Id,System.Decimal</value>
+          <value>ActivityId,System.Decimal</value>
+          <value>ActivityDescription,System.String</value>
+          <value>ActivityAlterDescription,System.String</value>
+          <value>Asset,System.String</value>
+          <value>AssetType,System.String</value>
+          <value>Function,System.String</value>
+          <value>FunctionalFailure,System.String</value>
+          <value>FailureMode,System.String</value>
+          <value>FailureCause,System.String</value>
+          <value>FailureEffect,System.String</value>
+          <value>Risk,System.String</value>
+          <value>Status,System.String</value>
+          <value>Task,System.String</value>
+          <value>MarginalEffect,System.String</value>
+          <value>HighCost,System.String</value>
+          <value>SecondaryDamage,System.String</value>
+          <value>OemConflict,System.String</value>
+          <value>InternalConflict,System.String</value>
+          <value>RegulatoryConflict,System.String</value>
+          <value>InsuranceConflict,System.String</value>
+          <value>Hidden,System.String</value>
+          <value>NoTaskReq,System.String</value>
+          <value>FinalTask,System.String</value>
+          <value>FinalFreq,System.String</value>
+          <value>FreqUom,System.String</value>
+          <value>Comments,System.String</value>
+          <value>UpdatedOn,System.DateTime</value>
+          <value>UpdatedBy,System.String</value>
+          <value>AssessmentId,System.Decimal</value>
+          <value>TaskId,System.Decimal</value>
+          <value>FinalTaskType,System.String</value>
+          <value>FinalFmId,System.Decimal</value>
+          <value>PmApproval,System.String</value>
+          <value>CandidateTaskCode,System.String</value>
+          <value>FinalTaskTypeCode,System.String</value>
+          <value>FinalFreqUomKey,System.String</value>
+          <value>FinalTaskCode,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+          <value>ApprovedOn,System.DateTime</value>
+          <value>ApprovedBy,System.String</value>
+          <value>ApprovalComments,System.String</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_SanityCheckList</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_SanityCheckList</NameInSource>
+      </CriticalityDetails_SanityCheckList>
+      <CriticalityDetails_ScreeningGraph isKey="true" type="DataTableSource" Ref="8">
+        <Alias>CriticalityDetails_ScreeningGraph</Alias>
+        <Columns count="10" isList="true">
+          <value>Assessment,System.String</value>
+          <value>AssessmentDescription,System.String</value>
+          <value>RiskCategory,System.String</value>
+          <value>NoOfSystems,System.Decimal</value>
+          <value>Percentage,System.Decimal</value>
+          <value>RiskColor,System.String</value>
+          <value>AssetType,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_ScreeningGraph</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_ScreeningGraph</NameInSource>
+      </CriticalityDetails_ScreeningGraph>
+      <CriticalityDetails_ExeSummaryDetails isKey="true" type="DataTableSource" Ref="9">
+        <Alias>CriticalityDetails_ExeSummaryDetails</Alias>
+        <Columns count="5" isList="true">
+          <value>AssessmentId,System.Decimal</value>
+          <value>Comments,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_ExeSummaryDetails</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_ExeSummaryDetails</NameInSource>
+      </CriticalityDetails_ExeSummaryDetails>
+      <CriticalityDetails_FunctionDetails isKey="true" type="DataTableSource" Ref="10">
+        <Alias>CriticalityDetails_FunctionDetails</Alias>
+        <Columns count="19" isList="true">
+          <value>AssessmentId,System.Decimal</value>
+          <value>AssessmentName,System.String</value>
+          <value>AssessmentDescription,System.String</value>
+          <value>Function,System.String</value>
+          <value>FunctionalFailure,System.String</value>
+          <value>FailureMode,System.String</value>
+          <value>FailureCause,System.String</value>
+          <value>FailureEffect,System.String</value>
+          <value>Risk,System.String</value>
+          <value>Status,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+          <value>Level1Name,System.String</value>
+          <value>Level1Desc,System.String</value>
+          <value>Level1Type,System.String</value>
+          <value>Level2Name,System.String</value>
+          <value>Level2Type,System.String</value>
+          <value>Level1Header,System.String</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_FunctionDetails</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_FunctionDetails</NameInSource>
+      </CriticalityDetails_FunctionDetails>
+      <CriticalityDetails_CofDetails isKey="true" type="DataTableSource" Ref="11">
+        <Alias>CriticalityDetails_CofDetails</Alias>
+        <Columns count="9" isList="true">
+          <value>AssessmentId,System.Decimal</value>
+          <value>Seq,System.Decimal</value>
+          <value>CategoryName,System.String</value>
+          <value>Color,System.String</value>
+          <value>Answer,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+          <value>Remarks,System.String</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_CofDetails</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_CofDetails</NameInSource>
+      </CriticalityDetails_CofDetails>
+      <CriticalityDetails_PofDetails isKey="true" type="DataTableSource" Ref="12">
+        <Alias>CriticalityDetails_PofDetails</Alias>
+        <Columns count="9" isList="true">
+          <value>AssessmentId,System.Decimal</value>
+          <value>Seq,System.Decimal</value>
+          <value>CategoryName,System.String</value>
+          <value>Color,System.String</value>
+          <value>Answer,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+          <value>Remarks,System.String</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_PofDetails</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_PofDetails</NameInSource>
+      </CriticalityDetails_PofDetails>
+      <CriticalityDetails_LtaDetails isKey="true" type="DataTableSource" Ref="13">
+        <Alias>CriticalityDetails_LtaDetails</Alias>
+        <Columns count="8" isList="true">
+          <value>AssessmentId,System.Decimal</value>
+          <value>SheetId,System.Decimal</value>
+          <value>SheetName,System.String</value>
+          <value>Label,System.String</value>
+          <value>Value,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_LtaDetails</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_LtaDetails</NameInSource>
+      </CriticalityDetails_LtaDetails>
+      <CriticalityDetails_TsrmDetails isKey="true" type="DataTableSource" Ref="14">
+        <Alias>CriticalityDetails_TsrmDetails</Alias>
+        <Columns count="8" isList="true">
+          <value>AssessmentId,System.Decimal</value>
+          <value>SheetId,System.Decimal</value>
+          <value>SheetName,System.String</value>
+          <value>Label,System.String</value>
+          <value>Value,System.String</value>
+          <value>_ID,System.Int32</value>
+          <value>_parentID,System.Int32</value>
+          <value>_Current,System.Object</value>
+        </Columns>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails_TsrmDetails</Name>
+        <NameInSource>CriticalityDetails.CriticalityDetails_TsrmDetails</NameInSource>
+      </CriticalityDetails_TsrmDetails>
+    </DataSources>
+    <Relations count="18" isList="true">
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="15">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="3"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_ApprovedTasksRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="16">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="4"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_ApprovedTasksListRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="17">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="5"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_CriticalityDetailsRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="18">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="6"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_TaskSelectionListRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="19">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="7"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_SanityCheckListRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="20">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="8"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_ScreeningGraphRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="21">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="9"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_ExeSummaryDetailsRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="22">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="10"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_FunctionDetailsRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="23">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="11"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_CofDetailsRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="24">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="12"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_PofDetailsRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <FunctionDetails isKey="true" type="DataRelation" Ref="25">
+        <Alias>FunctionDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ChildColumns>
+        <ChildSource isRef="11"/>
+        <Dictionary isRef="1"/>
+        <Name>FunctionDetails</Name>
+        <NameInSource>Relation2</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ParentColumns>
+        <ParentSource isRef="10"/>
+      </FunctionDetails>
+      <FunctionDetails isKey="true" type="DataRelation" Ref="26">
+        <Alias>FunctionDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ChildColumns>
+        <ChildSource isRef="12"/>
+        <Dictionary isRef="1"/>
+        <Name>FunctionDetails</Name>
+        <NameInSource>Relation3</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ParentColumns>
+        <ParentSource isRef="10"/>
+      </FunctionDetails>
+      <FunctionDetails isKey="true" type="DataRelation" Ref="27">
+        <Alias>FunctionDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ChildColumns>
+        <ChildSource isRef="7"/>
+        <Dictionary isRef="1"/>
+        <Name>FunctionDetails</Name>
+        <NameInSource>Relation5</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ParentColumns>
+        <ParentSource isRef="10"/>
+      </FunctionDetails>
+      <FunctionDetails isKey="true" type="DataRelation" Ref="28">
+        <Alias>FunctionDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ChildColumns>
+        <ChildSource isRef="9"/>
+        <Dictionary isRef="1"/>
+        <Name>FunctionDetails</Name>
+        <NameInSource>Relation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ParentColumns>
+        <ParentSource isRef="10"/>
+      </FunctionDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="29">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="13"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_LtaDetailsRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <CriticalityDetails isKey="true" type="DataRelation" Ref="30">
+        <Alias>CriticalityDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>_parentID</value>
+        </ChildColumns>
+        <ChildSource isRef="14"/>
+        <Dictionary isRef="1"/>
+        <Name>CriticalityDetails</Name>
+        <NameInSource>CriticalityDetails_TsrmDetailsRelation</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>_ID</value>
+        </ParentColumns>
+        <ParentSource isRef="2"/>
+      </CriticalityDetails>
+      <FunctionDetails isKey="true" type="DataRelation" Ref="31">
+        <Alias>FunctionDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ChildColumns>
+        <ChildSource isRef="13"/>
+        <Dictionary isRef="1"/>
+        <Name>FunctionDetails</Name>
+        <NameInSource>Relation4</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ParentColumns>
+        <ParentSource isRef="10"/>
+      </FunctionDetails>
+      <FunctionDetails isKey="true" type="DataRelation" Ref="32">
+        <Alias>FunctionDetails</Alias>
+        <ChildColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ChildColumns>
+        <ChildSource isRef="14"/>
+        <Dictionary isRef="1"/>
+        <Name>FunctionDetails</Name>
+        <NameInSource>Relation6</NameInSource>
+        <ParentColumns count="1" isList="true">
+          <value>AssessmentId</value>
+        </ParentColumns>
+        <ParentSource isRef="10"/>
+      </FunctionDetails>
+    </Relations>
+    <Report isRef="0"/>
+    <Variables count="5" isList="true">
+      <value>,RptTitle,RptTitle,System.String,Approved_x0020_Task_x0020_Report,False,False</value>
+      <value>,MainTitle,MainTitle,MainTitle,System.String,Synergi_x0020_Plant_x0020_Main,False,False,False</value>
+      <value>,ReportHeaderTitle,ReportHeaderTitle,ReportHeaderTitle,System.String,Risk_x0020_Report,False,False,False</value>
+      <value>,ProfitSheetTitle,ProfitSheetTitle,ProfitSheetTitle,System.String,,False,False,False</value>
+      <value>,AssMethod,AssMethod,System.String,FMECA,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings count="0" isList="true"/>
+  <MetaTags count="0" isList="true"/>
+  <Pages count="1" isList="true">
+    <Page1 isKey="true" type="Page" Ref="33">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>White</Brush>
+      <Components count="10" isList="true">
+        <PageFooterBand1 isKey="true" type="PageFooterBand" Ref="34">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,18.2,27.7,0.8</ClientRectangle>
+          <Components count="4" isList="true">
+            <Text14 isKey="true" type="Text" Ref="35">
+              <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.8,0,8,0.4</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Verdana,9</Font>
+              <Guid>ece506893f3e477a9b1b557454e9743f</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="33"/>
+              <Parent isRef="34"/>
+              <Text>{Count()}</Text>
+              <TextBrush>[54:83:105]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text33 isKey="true" type="Text" Ref="36">
+              <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>21.8,0,5.8,0.4</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>92e9fb125e0046199936f370f38288b5</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="33"/>
+              <Parent isRef="34"/>
+              <Text>{PageNofM}</Text>
+              <TextBrush>[54:83:105]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text2 isKey="true" type="Text" Ref="37">
+              <Alias>5473</Alias>
+              <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.2,0,6.6,0.4</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9</Font>
+              <Guid>2a264db432e5435785b659714440b307</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="33"/>
+              <Parent isRef="34"/>
+              <Text>Total Rows:</Text>
+              <TextBrush>[54:83:105]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <DateTimeZone isKey="true" type="Text" Ref="38">
+              <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,7.2,0.4</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>90d936f7e7e2401c93f4fcc926e95698</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>DateTimeZone</Name>
+              <Page isRef="33"/>
+              <Parent isRef="34"/>
+              <TextBrush>[54:83:105]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DateTimeZone>
+          </Components>
+          <Conditions count="0" isList="true"/>
+          <Guid>8b00cf7a02b047a488d27ad52ae1764d</Guid>
+          <Name>PageFooterBand1</Name>
+          <Page isRef="33"/>
+          <Parent isRef="33"/>
+        </PageFooterBand1>
+        <ReportTitle isKey="true" type="ReportTitleBand" Ref="39">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,27.7,2.2</ClientRectangle>
+          <Components count="3" isList="true">
+            <Text16 isKey="true" type="Text" Ref="40">
+              <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>5.2,0.2,17.2,1</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,13.8,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>03877607859c42efbeb558f115b5b53c</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="33"/>
+              <Parent isRef="39"/>
+              <Text>{ReportHeaderTitle}</Text>
+              <TextBrush>[54:83:105]</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <CompanyLogo isKey="true" type="Image" Ref="41">
+              <Alias>CompanyLogo</Alias>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,5.2,1.4</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Guid>bbeae13cb2c5438dbbaffe41c5902aa0</Guid>
+              <Name>CompanyLogo</Name>
+              <Page isRef="33"/>
+              <Parent isRef="39"/>
+            </CompanyLogo>
+            <ProductLogo isKey="true" type="Image" Ref="42">
+              <Alias>ProductLogo</Alias>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>22.4,0,5.2,1.4</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Guid>cbfcd2b4d3ee4a7ba6ccc77e86609949</Guid>
+              <Name>ProductLogo</Name>
+              <Page isRef="33"/>
+              <Parent isRef="39"/>
+            </ProductLogo>
+          </Components>
+          <Conditions count="0" isList="true"/>
+          <Name>ReportTitle</Name>
+          <Page isRef="33"/>
+          <Parent isRef="33"/>
+        </ReportTitle>
+        <HeaderBand1 isKey="true" type="HeaderBand" Ref="43">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,3.4,27.7,0.8</ClientRectangle>
+          <Components count="3" isList="true">
+            <Text4 isKey="true" type="Text" Ref="44">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.2,0,6.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="33"/>
+              <Parent isRef="43"/>
+              <Text>{CriticalityDetails_FunctionDetails.AssessmentName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text5 isKey="true" type="Text" Ref="45">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.4,0,17.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="33"/>
+              <Parent isRef="43"/>
+              <Text>{CriticalityDetails_FunctionDetails.AssessmentDescription}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text18 isKey="true" type="Text" Ref="46">
+              <Alias>183</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>0,0,4.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <Guid>ea0bdb5a38d645e89d9b09cf098167da</Guid>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="33"/>
+              <Parent isRef="43"/>
+              <Text>Assessment</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+          </Components>
+          <Conditions count="0" isList="true"/>
+          <KeepHeaderTogether>False</KeepHeaderTogether>
+          <Name>HeaderBand1</Name>
+          <Page isRef="33"/>
+          <Parent isRef="33"/>
+        </HeaderBand1>
+        <GroupHeaderBand2 isKey="true" type="GroupHeaderBand" Ref="47">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,5,27.7,0.8</ClientRectangle>
+          <Components count="10" isList="true">
+            <Text20 isKey="true" type="Text" Ref="48">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,1.6,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="33"/>
+              <Parent isRef="47"/>
+              <Text>{ToProperCase(CriticalityDetails_FunctionDetails.Level1Type)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text21 isKey="true" type="Text" Ref="49">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.6,0,2.6,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>f007b37e8dc140ad8da0867f1390690e</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="33"/>
+              <Parent isRef="47"/>
+              <Text>{ToProperCase(CriticalityDetails_FunctionDetails.Level1Header)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text22 isKey="true" type="Text" Ref="50">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.2,0,2.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>44749405a4c9469e8804c9a920fe1dc5</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="33"/>
+              <Parent isRef="47"/>
+              <Text>{ToProperCase(CriticalityDetails_FunctionDetails.Level2Type)}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text23 isKey="true" type="Text" Ref="51">
+              <Alias>2178</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>6.4,0,4,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>0087f2054b39443680ecc8ce36401fac</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="33"/>
+              <Parent isRef="47"/>
+              <Text>Function</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text24 isKey="true" type="Text" Ref="52">
+              <Alias>2179</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10.4,0,4,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>0cbfb587ae99473a89384bb7c3c435fc</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="33"/>
+              <Parent isRef="47"/>
+              <Text>Func. Failure</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text25 isKey="true" type="Text" Ref="53">
+              <Alias>1762</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>14.4,0,3.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>f8c39d8901824d48b7802845e1b4ba38</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="33"/>
+              <Parent isRef="47"/>
+              <Text>Failure Mode</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text25>
+            <Text26 isKey="true" type="Text" Ref="54">
+              <Alias>105</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>17.6,0,3.6,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>9210e2dcf4fc4f57a13cc1542108359b</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="33"/>
+              <Parent isRef="47"/>
+              <Text>Failure Cause</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <Text27 isKey="true" type="Text" Ref="55">
+              <Alias>2180</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>21.2,0,3.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>1a6728501a954b54a52bfa52c10a75e4</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="33"/>
+              <Parent isRef="47"/>
+              <Text>Failure Effect</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text28 isKey="true" type="Text" Ref="56">
+              <Alias>2181</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>24.4,0,1.4,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>79fa89c07cb24026b95cfa30a86c788e</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="33"/>
+              <Parent isRef="47"/>
+              <Text>Risk</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <Text30 isKey="true" type="Text" Ref="57">
+              <Alias>1325</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>25.8,0,1.8,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>6963eebd187b47dfa7ac31e9fa31c4ae</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="33"/>
+              <Parent isRef="47"/>
+              <Text>Status</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+          </Components>
+          <Condition>{CriticalityDetails_FunctionDetails.AssessmentId}</Condition>
+          <Conditions count="0" isList="true"/>
+          <KeepGroupHeaderTogether>False</KeepGroupHeaderTogether>
+          <Name>GroupHeaderBand2</Name>
+          <NewPageBefore>True</NewPageBefore>
+          <Page isRef="33"/>
+          <Parent isRef="33"/>
+        </GroupHeaderBand2>
+        <DataCriticalityDetails_FunctionDetails isKey="true" type="DataBand" Ref="58">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true"/>
+          <ClientRectangle>0,6.6,27.7,0.8</ClientRectangle>
+          <Components count="10" isList="true">
+            <DataCriticalityDetails_FunctionDetails_Package isKey="true" type="Text" Ref="59">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,1.6,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_FunctionDetails_Package</Name>
+              <Page isRef="33"/>
+              <Parent isRef="58"/>
+              <Text>{CriticalityDetails_FunctionDetails.Level1Name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_FunctionDetails_Package>
+            <DataCriticalityDetails_FunctionDetails_PackageName isKey="true" type="Text" Ref="60">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.6,0,2.6,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_FunctionDetails_PackageName</Name>
+              <Page isRef="33"/>
+              <Parent isRef="58"/>
+              <Text>{CriticalityDetails_FunctionDetails.Level1Desc}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_FunctionDetails_PackageName>
+            <DataCriticalityDetails_FunctionDetails_Equipment isKey="true" type="Text" Ref="61">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.2,0,2.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_FunctionDetails_Equipment</Name>
+              <Page isRef="33"/>
+              <Parent isRef="58"/>
+              <Text>{CriticalityDetails_FunctionDetails.Level2Name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_FunctionDetails_Equipment>
+            <DataCriticalityDetails_FunctionDetails_Function isKey="true" type="Text" Ref="62">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>6.4,0,4,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_FunctionDetails_Function</Name>
+              <Page isRef="33"/>
+              <Parent isRef="58"/>
+              <Text>{CriticalityDetails_FunctionDetails.Function}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_FunctionDetails_Function>
+            <DataCriticalityDetails_FunctionDetails_FunctionalFailure isKey="true" type="Text" Ref="63">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10.4,0,4,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_FunctionDetails_FunctionalFailure</Name>
+              <Page isRef="33"/>
+              <Parent isRef="58"/>
+              <Text>{CriticalityDetails_FunctionDetails.FunctionalFailure}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_FunctionDetails_FunctionalFailure>
+            <DataCriticalityDetails_FunctionDetails_FailureMode isKey="true" type="Text" Ref="64">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>14.4,0,3.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_FunctionDetails_FailureMode</Name>
+              <Page isRef="33"/>
+              <Parent isRef="58"/>
+              <Text>{CriticalityDetails_FunctionDetails.FailureMode}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_FunctionDetails_FailureMode>
+            <DataCriticalityDetails_FunctionDetails_FailureCause isKey="true" type="Text" Ref="65">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>17.6,0,3.6,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_FunctionDetails_FailureCause</Name>
+              <Page isRef="33"/>
+              <Parent isRef="58"/>
+              <Text>{CriticalityDetails_FunctionDetails.FailureCause}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_FunctionDetails_FailureCause>
+            <DataCriticalityDetails_FunctionDetails_FailureEffect isKey="true" type="Text" Ref="66">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>21.2,0,3.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_FunctionDetails_FailureEffect</Name>
+              <Page isRef="33"/>
+              <Parent isRef="58"/>
+              <Text>{CriticalityDetails_FunctionDetails.FailureEffect}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_FunctionDetails_FailureEffect>
+            <DataCriticalityDetails_FunctionDetails_Risk isKey="true" type="Text" Ref="67">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>24.4,0,1.4,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_FunctionDetails_Risk</Name>
+              <Page isRef="33"/>
+              <Parent isRef="58"/>
+              <Text>{CriticalityDetails_FunctionDetails.Risk}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_FunctionDetails_Risk>
+            <DataCriticalityDetails_FunctionDetails_Status isKey="true" type="Text" Ref="68">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>25.8,0,1.8,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_FunctionDetails_Status</Name>
+              <Page isRef="33"/>
+              <Parent isRef="58"/>
+              <Text>{CriticalityDetails_FunctionDetails.Status}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_FunctionDetails_Status>
+          </Components>
+          <Conditions count="0" isList="true"/>
+          <DataSourceName>CriticalityDetails_FunctionDetails</DataSourceName>
+          <Filters count="0" isList="true"/>
+          <Name>DataCriticalityDetails_FunctionDetails</Name>
+          <Page isRef="33"/>
+          <Parent isRef="33"/>
+          <PrintIfDetailEmpty>True</PrintIfDetailEmpty>
+          <Sort count="0" isList="true"/>
+        </DataCriticalityDetails_FunctionDetails>
+        <HeaderBand2 isKey="true" type="HeaderBand" Ref="69">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,8.2,27.7,1.6</ClientRectangle>
+          <Components count="4" isList="true">
+            <Text17 isKey="true" type="Text" Ref="70">
+              <Alias>1564</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>0,0,27.6,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <Guid>ed52dbeed12842a0adb46ff2a3fda187</Guid>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="33"/>
+              <Parent isRef="69"/>
+              <Text>Consequence Of Failure</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text8 isKey="true" type="Text" Ref="71">
+              <Alias>68</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>0,0.8,6.4,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <Guid>6443400a3f754999a8756bcd9f2c4a52</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="33"/>
+              <Parent isRef="69"/>
+              <Text>Name</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text9 isKey="true" type="Text" Ref="72">
+              <Alias>1542</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>6.4,0.8,11.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <Guid>aa0e8ee2c3084827917b111ecdfa56f6</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="33"/>
+              <Parent isRef="69"/>
+              <Text>Answer</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 isKey="true" type="Text" Ref="73">
+              <Alias>1801</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>17.6,0.8,10,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <Guid>b582f938ee1f42b09a34b8ab55ddd93d</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="33"/>
+              <Parent isRef="69"/>
+              <Text>Remarks</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+          </Components>
+          <Conditions count="0" isList="true"/>
+          <Guid>d69ee0293e17447bb4064492b6c7e0ba</Guid>
+          <Name>HeaderBand2</Name>
+          <Page isRef="33"/>
+          <Parent isRef="33"/>
+          <PrintOnAllPages>False</PrintOnAllPages>
+        </HeaderBand2>
+        <DataCriticalityDetails_CofDetails isKey="true" type="DataBand" Ref="74">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true"/>
+          <ClientRectangle>0,10.6,27.7,0.8</ClientRectangle>
+          <Components count="5" isList="true">
+            <Text38 isKey="true" type="Text" Ref="75">
+              <Border>Left, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>6.4,0,1,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Verdana,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>65cd1ce7b56c40428183f3dc5f79b473</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="33"/>
+              <Parent isRef="74"/>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <DataCriticalityDetails_CofDetails_CategoryName isKey="true" type="Text" Ref="76">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,6.4,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>6a41aeb365d343e0a9302abd9b713df8</Guid>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_CofDetails_CategoryName</Name>
+              <Page isRef="33"/>
+              <Parent isRef="74"/>
+              <Text>{CriticalityDetails_CofDetails.CategoryName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_CofDetails_CategoryName>
+            <DataCriticalityDetails_CofDetails_Answer isKey="true" type="Text" Ref="77">
+              <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.4,0,10.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>8b731197e19a49849ced615857d0386c</Guid>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_CofDetails_Answer</Name>
+              <Page isRef="33"/>
+              <Parent isRef="74"/>
+              <Text>{CriticalityDetails_CofDetails.Answer}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_CofDetails_Answer>
+            <Text31 isKey="true" type="Text" Ref="78">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.7,0.2,0.4,0.4</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Verdana,8</Font>
+              <Guid>9d86152a234b4e5f8a7995e9cfe4c550</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="33"/>
+              <Parent isRef="74"/>
+              <Text>&lt;background-color="{CriticalityDetails_CofDetails.Color}"&gt;&lt;font color="{CriticalityDetails_CofDetails.Color}"&gt;QADEER&lt;/font&gt;&lt;/background-color&gt;</Text>
+              <TextBrush>Black</TextBrush>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text6 isKey="true" type="Text" Ref="79">
+              <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>17.6,0,10,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>075261f7900943a58c6f44836f9a489a</Guid>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="33"/>
+              <Parent isRef="74"/>
+              <Text>{CriticalityDetails_CofDetails.Remarks}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions count="0" isList="true"/>
+          <DataRelationName>Relation2</DataRelationName>
+          <DataSourceName>CriticalityDetails_CofDetails</DataSourceName>
+          <Filters count="0" isList="true"/>
+          <Guid>9a8096344c60470895d3ae7d87909ea6</Guid>
+          <MasterComponent isRef="58"/>
+          <Name>DataCriticalityDetails_CofDetails</Name>
+          <Page isRef="33"/>
+          <Parent isRef="33"/>
+          <PrintIfDetailEmpty>True</PrintIfDetailEmpty>
+          <Sort count="0" isList="true"/>
+        </DataCriticalityDetails_CofDetails>
+        <HeaderBand3 isKey="true" type="HeaderBand" Ref="80">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,12.2,27.7,1.6</ClientRectangle>
+          <Components count="4" isList="true">
+            <Text19 isKey="true" type="Text" Ref="81">
+              <Alias>2182</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>0,0,27.6,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <Guid>cc676334f4d7496a9ee81b660d94610e</Guid>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="33"/>
+              <Parent isRef="80"/>
+              <Text>Probability Of Failure</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text11 isKey="true" type="Text" Ref="82">
+              <Alias>68</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>0,0.8,6.4,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <Guid>45f14b957187418da28ea5f1d0514575</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="33"/>
+              <Parent isRef="80"/>
+              <Text>Name</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text12 isKey="true" type="Text" Ref="83">
+              <Alias>1542</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>6.4,0.8,11.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <Guid>1f006a7f35b0455585bb55d3fb63905f</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="33"/>
+              <Parent isRef="80"/>
+              <Text>Answer</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text13 isKey="true" type="Text" Ref="84">
+              <Alias>1801</Alias>
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[184:204:228]</Brush>
+              <ClientRectangle>17.6,0.8,10,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,9,Bold</Font>
+              <Guid>848646b20bce4c2d91935e30ea352a3b</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="33"/>
+              <Parent isRef="80"/>
+              <Text>Remarks</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+          </Components>
+          <Conditions count="0" isList="true"/>
+          <Guid>fad8092a26bd4059b1cf568dbcf44d73</Guid>
+          <Name>HeaderBand3</Name>
+          <Page isRef="33"/>
+          <Parent isRef="33"/>
+          <PrintOnAllPages>False</PrintOnAllPages>
+        </HeaderBand3>
+        <DataCriticalityDetails_PofDetails isKey="true" type="DataBand" Ref="85">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true"/>
+          <ClientRectangle>0,14.6,27.7,0.8</ClientRectangle>
+          <Components count="5" isList="true">
+            <Text39 isKey="true" type="Text" Ref="86">
+              <Border>Top, Left, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>6.4,0,1,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Verdana,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>ec7c67c55ffe4523a70c47fe8d853ee6</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="33"/>
+              <Parent isRef="85"/>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text39>
+            <DataCriticalityDetails_PofDetails_CategoryName isKey="true" type="Text" Ref="87">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,6.4,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>e40836ef333c4764bfa24ef2b0c60d95</Guid>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_PofDetails_CategoryName</Name>
+              <Page isRef="33"/>
+              <Parent isRef="85"/>
+              <Text>{CriticalityDetails_PofDetails.CategoryName}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_PofDetails_CategoryName>
+            <DataCriticalityDetails_PofDetails_Answer isKey="true" type="Text" Ref="88">
+              <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.4,0,10.2,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>a18ff9fb9fde4a2380713083647f4daa</Guid>
+              <Margins>1,0,0,0</Margins>
+              <Name>DataCriticalityDetails_PofDetails_Answer</Name>
+              <Page isRef="33"/>
+              <Parent isRef="85"/>
+              <Text>{CriticalityDetails_PofDetails.Answer}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </DataCriticalityDetails_PofDetails_Answer>
+            <Text32 isKey="true" type="Text" Ref="89">
+              <AllowHtmlTags>True</AllowHtmlTags>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.7,0.2,0.4,0.4</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Verdana,8</Font>
+              <Guid>f41fa501b755472a82fea4d56e15577e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="33"/>
+              <Parent isRef="85"/>
+              <Text>&lt;background-color="{CriticalityDetails_PofDetails.Color}"&gt;&lt;font color="{CriticalityDetails_PofDetails.Color}"&gt;QADEER&lt;/font&gt;&lt;/background-color&gt;</Text>
+              <TextBrush>Black</TextBrush>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text7 isKey="true" type="Text" Ref="90">
+              <Border>Top, Right, Bottom;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>17.6,0,10,0.8</ClientRectangle>
+              <Conditions count="0" isList="true"/>
+              <Font>Microsoft Sans Serif,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>74cf9ed536614cca83c59031987f20cd</Guid>
+              <Margins>1,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="33"/>
+              <Parent isRef="85"/>
+              <Text>{CriticalityDetails_PofDetails.Remarks}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20,</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+          </Components>
+          <Conditions count="0" isList="true"/>
+          <DataRelationName>Relation3</DataRelationName>
+          <DataSourceName>CriticalityDetails_PofDetails</DataSourceName>
+          <Filters count="0" isList="true"/>
+          <Guid>d6739cc8d5eb4a4bb07cc70d7099f5c5</Guid>
+          <MasterComponent isRef="58"/>
+          <Name>DataCriticalityDetails_PofDetails</Name>
+          <Page isRef="33"/>
+          <Parent isRef="33"/>
+          <PrintIfDetailEmpty>True</PrintIfDetailEmpty>
+          <Sort count="0" isList="true"/>
+        </DataCriticalityDetails_PofDetails>
+        <GroupFooterBand2 isKey="true" type="GroupFooterBand" Ref="91">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,16.2,27.7,0</ClientRectangle>
+          <Components count="0" isList="true"/>
+          <Conditions count="0" isList="true"/>
+          <KeepGroupFooterTogether>False</KeepGroupFooterTogether>
+          <Name>GroupFooterBand2</Name>
+          <Page isRef="33"/>
+          <Parent isRef="33"/>
+        </GroupFooterBand2>
+      </Components>
+      <Conditions count="0" isList="true"/>
+      <Guid>5ac6519b03e34b7c811c2b3c039d5ba0</Guid>
+      <LargeHeightFactor>1</LargeHeightFactor>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>21</PageHeight>
+      <PageWidth>29.7</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0"/>
+      <RightToLeft>True</RightToLeft>
+      <Watermark isKey="true" type="Stimulsoft.Report.Components.StiWatermark" Ref="92">
+        <Font>Arial,100</Font>
+        <ShowImageBehind>False</ShowImageBehind>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings isKey="true" type="Stimulsoft.Report.Print.StiPrinterSettings" Ref="93">
+    <ShowDialog>False</ShowDialog>
+  </PrinterSettings>
+  <ReferencedAssemblies count="8" isList="true">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Risk Report</ReportAlias>
+  <ReportAuthor>Qadeer Ahmed</ReportAuthor>
+  <ReportChanged>06/26/2018 05:38:17 PM</ReportChanged>
+  <ReportCreated>04/08/2014 02:10:43 PM</ReportCreated>
+  <ReportFile>C:\Users\mulibr\Perforce\Mool-Synergiplant\depot\OrbitPlus\rel\5.5.3\Web\OrbitPlus.Web\Reports\RCMReports\CriticalityDetails.mrt</ReportFile>
+  <ReportGuid>f88bac949718a1afe2db3b753f80c58e</ReportGuid>
+  <ReportName>Risk Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2014.1.1900</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+
+    public class Report : Stimulsoft.Report.StiReport
+
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles count="13" isList="true">
+    <Blue_x0020_25_x0025__Report_Title1 isKey="true" type="Stimulsoft.Report.StiStyle" Ref="94">
+      <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item5 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="95">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>ReportTitle</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item5>
+      </Conditions>
+      <Font>Arial,14,Bold</Font>
+      <Name>Blue 25%_Report_Title1</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Report_Title1>
+    <Blue_x0020_25_x0025__Report_Title2 isKey="true" type="Stimulsoft.Report.StiStyle" Ref="96">
+      <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item6 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="97">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>ReportTitle</Placement>
+          <PlacementNestedLevel>2</PlacementNestedLevel>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item6>
+      </Conditions>
+      <Font>Arial,10,Bold</Font>
+      <Name>Blue 25%_Report_Title2</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Report_Title2>
+    <Blue_x0020_25_x0025__Report_Summary1 isKey="true" type="Stimulsoft.Report.StiStyle" Ref="98">
+      <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item7 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="99">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>ReportSummary</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item7>
+      </Conditions>
+      <Font>Arial,12,Bold</Font>
+      <Name>Blue 25%_Report_Summary1</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Report_Summary1>
+    <Blue_x0020_25_x0025__Report_Summary2 isKey="true" type="Stimulsoft.Report.StiStyle" Ref="100">
+      <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item8 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="101">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>ReportSummary</Placement>
+          <PlacementNestedLevel>2</PlacementNestedLevel>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item8>
+      </Conditions>
+      <Font>Arial,10,Bold</Font>
+      <Name>Blue 25%_Report_Summary2</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Report_Summary2>
+    <Blue_x0020_25_x0025__Page_Header isKey="true" type="Stimulsoft.Report.StiStyle" Ref="102">
+      <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item9 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="103">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>PageHeader</Placement>
+          <Type>ComponentType, Placement</Type>
+        </Item9>
+      </Conditions>
+      <Font>Arial,10</Font>
+      <Name>Blue 25%_Page_Header</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Page_Header>
+    <Blue_x0020_25_x0025__Page_Footer isKey="true" type="Stimulsoft.Report.StiStyle" Ref="104">
+      <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item10 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="105">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>PageFooter</Placement>
+          <Type>ComponentType, Placement</Type>
+        </Item10>
+      </Conditions>
+      <Font>Arial,10</Font>
+      <Name>Blue 25%_Page_Footer</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Page_Footer>
+    <Blue_x0020_25_x0025__Group_Header1 isKey="true" type="Stimulsoft.Report.StiStyle" Ref="106">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item11 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="107">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>GroupHeader</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item11>
+      </Conditions>
+      <Font>Arial,13,Bold</Font>
+      <Name>Blue 25%_Group_Header1</Name>
+      <TextBrush>[54:83:105]</TextBrush>
+    </Blue_x0020_25_x0025__Group_Header1>
+    <Blue_x0020_25_x0025__Group_Footer1 isKey="true" type="Stimulsoft.Report.StiStyle" Ref="108">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>None;[104:133:155];1;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item12 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="109">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>GroupFooter</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item12>
+      </Conditions>
+      <Font>Arial,13,Bold</Font>
+      <Name>Blue 25%_Group_Footer1</Name>
+      <TextBrush>[54:83:105]</TextBrush>
+    </Blue_x0020_25_x0025__Group_Footer1>
+    <Blue_x0020_25_x0025__Header1 isKey="true" type="Stimulsoft.Report.StiStyle" Ref="110">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>None;[104:133:155];1;Solid;False;4;Black;True</Border>
+      <Brush>[204:233:255]</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item13 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="111">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>Header</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item13>
+      </Conditions>
+      <Font>Arial,8,Bold</Font>
+      <Name>Blue 25%_Header1</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Header1>
+    <Blue_x0020_25_x0025__Data1 isKey="true" type="Stimulsoft.Report.StiStyle" Ref="112">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>None;[104:133:155];1;Solid;False;4;Black;True</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item14 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="113">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>Data</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item14>
+      </Conditions>
+      <Font>Arial,8</Font>
+      <Name>Blue 25%_Data1</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Data1>
+    <Blue_x0020_25_x0025__Data1_Odd_x0020_Style isKey="true" type="Stimulsoft.Report.StiStyle" Ref="114">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>None;[104:133:155];1;Solid;False;4;Black;True</Border>
+      <Brush>[255:255:255]</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item15 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="115">
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>DataOddStyle</Placement>
+          <Type>Placement, PlacementNestedLevel</Type>
+        </Item15>
+      </Conditions>
+      <Font>Arial,8</Font>
+      <Name>Blue 25%_Data1_Odd Style</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Data1_Odd_x0020_Style>
+    <Blue_x0020_25_x0025__Data1_Even_x0020_Style isKey="true" type="Stimulsoft.Report.StiStyle" Ref="116">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>None;[104:133:155];1;Solid;False;4;Black;True</Border>
+      <Brush>[255:255:255]</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item16 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="117">
+          <OperationPlacementNestedLevel>GreaterThanOrEqualTo</OperationPlacementNestedLevel>
+          <Placement>DataEvenStyle</Placement>
+          <Type>Placement, PlacementNestedLevel</Type>
+        </Item16>
+      </Conditions>
+      <Font>Arial,8</Font>
+      <Name>Blue 25%_Data1_Even Style</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Data1_Even_x0020_Style>
+    <Blue_x0020_25_x0025__Footer1 isKey="true" type="Stimulsoft.Report.StiStyle" Ref="118">
+      <AllowUseBorderSidesFromLocation>True</AllowUseBorderSidesFromLocation>
+      <Border>None;[104:133:155];1;Solid;False;4;Black;True</Border>
+      <Brush>[224:253:255]</Brush>
+      <CollectionName>Blue 25%</CollectionName>
+      <Conditions count="1" isList="true">
+        <Item17 isKey="true" type="Stimulsoft.Report.StiStyleCondition" Ref="119">
+          <ComponentType>Text, Primitive, Image</ComponentType>
+          <Placement>Footer</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item17>
+      </Conditions>
+      <Font>Arial,8</Font>
+      <Name>Blue 25%_Footer1</Name>
+      <TextBrush>[4:33:55]</TextBrush>
+    </Blue_x0020_25_x0025__Footer1>
+  </Styles>
+</StiSerializer>
